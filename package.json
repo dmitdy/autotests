@@ -1,9 +1,13 @@
 {
-  "dependencies": {
-    "mocha": "^10.2.0",
-    "puppeteer": "^21.7.0"
-  },
   "scripts": {
-    "test": "mocha"
+
+    "build": "tsc --outDir dist",
+
+    "test": "tsc --outDir dist && cd dist && node example 1.js"
+
+  },
+  "dependencies": {
+    "puppeteer": "^21.7.0",
+    "typescript": "^5.3.3"
   }
 }
