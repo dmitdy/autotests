@@ -1,10 +1,7 @@
 {
   "scripts": {
-
     "build": "tsc --outDir dist",
-
-    "test": "tsc --outDir dist && cd dist && node example 1.js"
-
+    "test": "tsc --outDir dist && cd dist && node example_1.js"
   },
   "dependencies": {
     "puppeteer": "^21.7.0",
